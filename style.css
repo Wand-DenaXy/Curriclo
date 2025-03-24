@@ -1,0 +1,89 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #211C84;
+}
+
+.background-div {
+    margin-top: -3%;
+    background-image: url('images/premium_photo-1661877737564-3dfd7282efcb.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Ajuste a altura conforme necessário */
+    opacity: 0.15; /* Define a opacidade da imagem de fundo */
+    z-index: -1; /* Mantém atrás do conteúdo */
+}
+
+ul {
+    text-align: center;
+    column-gap: 35px;
+    padding: 15px;
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    font-weight: 700;
+    font-size: large;   
+    color: #7A73D1;
+    text-decoration: none;
+}
+
+header {
+    z-index: 999;
+    background-color: #4D55CC;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.main > img {
+    border: 5px solid #7A73D1;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px 3px #7A73D1;
+}
+
+main,article {
+    margin-top: 3%;
+    text-align: center;
+    color: #B5A8D5;
+}
+
+.main1 {
+    z-index: 999;
+    display: flex;
+    margin-top: -10%;
+    text-align: center;
+    column-gap: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.main1 p {
+    width: 400px;
+    margin-bottom: 30px; /* Garante que haja espaço entre o parágrafo e o título */
+}
+
+.primeiro {
+    z-index: 999;
+    display: flex;
+    flex-direction: column; /* Faz o conteúdo empilhar em uma coluna */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+    justify-content: flex-start; /* Mantém o conteúdo alinhado ao topo */
+}
+
+.primeiro h1
+{
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+h4 {
+    font-weight: 700;
+}
+
