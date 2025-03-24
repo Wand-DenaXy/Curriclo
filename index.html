@@ -3,38 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-    <title>Curriclo</title>
+    <title>Document</title>
 </head>
 <body>
     <header>
+        <a href="#home" class="logo">Manuel
+        <span>Silvestre</span></a>
         <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Sobre mim</a></li>
-                <li><a href="">Portefolio</a></li>
-            </ul>
+            <a href="#home" class="active">Home</a>
+            <a href="#educations" class="nav-link">Educations</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
         </nav>
+        <i class='bx bx-menu' id="menu-icon"></i>
     </header>
-    <main>
-        <div class="background-div">
-            <img src="images/premium_photo-1661877737564-3dfd7282efcb.jpg" alt="">
-        </div>
-        <div class="main1">
-            <div>
-                <img src="images/IMG_20250216_172457_321 (1).png" alt="" width="250px" height="250px">
-                <div><h4>Manuel Nunes Dias Silvestre</h4></div>
+    <section class="home">
+        <div class="content">
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi accusamus tenetur ipsa minus adipisci laborum ex, hic minima corrupti voluptas consequatur omnis fuga nulla deleniti perferendis eius unde quo quod numquam neque obcaecati alias. Necessitatibus deserunt quisquam dolorem ab ad, illo error dolores. Distinctio, aspernatur animi corrupti vitae placeat atque?</p>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
             </div>
-            <div class="primeiro">
-                <h1><strong>Programador</strong></h1>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eius nesciunt sed eos autem nostrum sit commodi fugiat, veritatis officia quasi error magnam voluptatum quibusdam. Fuga dicta, saepe aspernatur eius quam quaerat eos in architecto deleniti culpa doloribus sapiente repellendus, ipsam molestias distinctio est porro laudantium quisquam? Provident, eaque autem!</p>  
+
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
             </div>
         </div>
-        
-    </main>
-    <article>
-        <h1>Tech Stack</h1>
-    </article>
+        <div class="himg">
+            <img src="images/IMG_20250216_172457_321 (1).jpg" alt="">
+        </div>
+    </section>
+    <section class="education">
+        <h2 class="header2">Projects</h2>
+        <div class="education-container">
+            <div class="education-block">
+                <img src="images/premium_photo-1661877737564-3dfd7282efcb.jpg" alt="Education 1">
+                <p>Descrição do curso ou formação.</p>
+            </div>
+            <div class="education-block">
+                <img src="img2.jpg" alt="Education 2">
+                <p>Outra descrição relevante.</p>
+            </div>
+            <div class="education-block">
+                <img src="img3.jpg" alt="Education 3">
+                <p>Mais uma informação sobre educação.</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
