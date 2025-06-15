@@ -260,12 +260,19 @@ section
 }
 
 .education-block img {
-    width: 100%;
+    
     border-radius: 10px;
 }
-
+.educationimg1 img
+{
+    width: 100%;
+}
+.educationimg img
+{
+    width: 80%;
+}
 .education-block p {
     margin-top: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: var(--text-color);
 }
