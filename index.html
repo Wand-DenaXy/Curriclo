@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Manuel Silvestre - Portfolio</title>
 </head>
 <body>
     <header>
@@ -13,13 +14,15 @@
         <span>Silvestre</span></a>
         <nav>
             <a href="#home" class="active">Home</a>
-            <a href="#educations" class="nav-link">Educations</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#skills" class="nav-link">Skills</a>
             <a href="#projects" class="nav-link">Projects</a>
             <a href="#contact" class="nav-link">Contact</a>
         </nav>
         <i class='bx bx-menu' id="menu-icon"></i>
     </header>
-    <section class="home">
+
+    <section class="home" id="home">
         <div class="content">
             <h3 class="text-animation">I'm a <span></span></h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi accusamus tenetur ipsa minus adipisci laborum ex, hic minima corrupti voluptas consequatur omnis fuga nulla deleniti perferendis eius unde quo quod numquam neque obcaecati alias. Necessitatibus deserunt quisquam dolorem ab ad, illo error dolores. Distinctio, aspernatur animi corrupti vitae placeat atque?</p>
@@ -39,7 +42,8 @@
             <img src="images/IMG_20250216_172457_321 (1).jpg" alt="">
         </div>
     </section>
-    <section class="education">
+
+    <section class="education" id="education">
         <h2 class="header2">Education</h2>
         <div class="education-container">
             <div class="education-block educationimg1">
@@ -56,5 +60,193 @@
             </div>
         </div>
     </section>
+
+    <section class="skills" id="skills">
+        <h2 class="header2">Skills & Technologies</h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" alt="Laravel">
+                <h3>Laravel</h3>
+            </div>
+            <div class="skill-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+                <h3>PHP</h3>
+            </div>
+            <div class="skill-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter">
+                <h3>Flutter</h3>
+            </div>
+            <div class="skill-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                <h3>HTML</h3>
+            </div>
+            <div class="skill-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                <h3>CSS</h3>
+            </div>
+            <div class="skill-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin">
+                <h3>Kotlin</h3>
+            </div>
+            <div class="skill-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                <h3>Python</h3>
+            </div>
+            <div class="skill-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                <h3>Java</h3>
+            </div>
+            <div class="skill-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                <h3>MySQL</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="header2">Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://via.placeholder.com/400x250/131313/00ffee?text=Project+1" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>E-Commerce Platform</h3>
+                    <p>Uma plataforma completa de e-commerce desenvolvida com Laravel e Flutter, incluindo painel administrativo e aplicação mobile.</p>
+                    <div class="project-tags">
+                        <span>Laravel</span>
+                        <span>Flutter</span>
+                        <span>PHP</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#">Ver Projeto</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://via.placeholder.com/400x250/131313/00ffee?text=Project+2" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3>Task Management App</h3>
+                    <p>Aplicação mobile de gestão de tarefas desenvolvida em Kotlin para Android com interface intuitiva e sincronização em tempo real.</p>
+                    <div class="project-tags">
+                        <span>Kotlin</span>
+                        <span>Android</span>
+                        <span>Firebase</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#">Ver Projeto</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://via.placeholder.com/400x250/131313/00ffee?text=Project+3" alt="Project 3">
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>Website pessoal desenvolvido com HTML, CSS e JavaScript puro, com design moderno e responsivo.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#">Ver Projeto</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://via.placeholder.com/400x250/131313/00ffee?text=Project+4" alt="Project 4">
+                </div>
+                <div class="project-info">
+                    <h3>Data Analysis Tool</h3>
+                    <p>Ferramenta de análise de dados desenvolvida em Python com visualizações interativas e geração de relatórios automáticos.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>Matplotlib</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#">Ver Projeto</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://via.placeholder.com/400x250/131313/00ffee?text=Project+5" alt="Project 5">
+                </div>
+                <div class="project-info">
+                    <h3>REST API Service</h3>
+                    <p>API RESTful robusta desenvolvida com Laravel para gestão de múltiplos clientes, incluindo autenticação JWT.</p>
+                    <div class="project-tags">
+                        <span>Laravel</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#">Ver Projeto</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://via.placeholder.com/400x250/131313/00ffee?text=Project+6" alt="Project 6">
+                </div>
+                <div class="project-info">
+                    <h3>Chat Application</h3>
+                    <p>Aplicação de chat em tempo real com suporte para mensagens de grupo, desenvolvida com JavaScript e WebSockets.</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>Node.js</span>
+                        <span>Socket.io</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#">Ver Projeto</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-logo">
+                Manuel <span>Silvestre</span>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Manuel Silvestre. Desenvolvido com <span>♥</span> por Manuel Silvestre</p>
+        </div>
+    </footer>
 </body>
 </html>
