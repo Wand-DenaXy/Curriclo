@@ -16,7 +16,7 @@ export default function Education() {
                 alt="Education 1" 
                 style={{ width: '100%', height: 'auto', borderRadius: '1rem' }}
             />
-             <p>Finalizou o 12º Ano em Programação e Gestão de Sistemas Informáticos na Gabriel Pereira</p>
+              <p>Completed secondary education (12th grade) in Programming and Information Systems Management at Gabriel Pereira.</p>
         </motion.div>
         <motion.div className="education-block educationimg">
             <Image 
@@ -24,7 +24,7 @@ export default function Education() {
                 alt="Education 2" 
                 style={{ width: '80%', height: 'auto', borderRadius: '1rem' }}
             />
-            <p><strong>Cyango</strong> - estagiou numa empresa que trabalha com realidade aumentada com um período de duzentas e dez horas de trabalho.</p>
+            <p><strong>Cyango</strong> — completed an internship at a company focused on augmented reality, with a total of 210 working hours.</p>
         </motion.div>
         <motion.div className="education-block educationimg">
             <Image 
@@ -32,7 +32,7 @@ export default function Education() {
                 alt="Education 3" 
                 style={{ width: '80%', height: 'auto', borderRadius: '1rem' }}
             />
-            <p><strong>El Chester</strong> - estagiou nesta empresa de design gráfico a onde aprimorou e implementou as suas competências em aplicações  Adobe que trabalha com com um período de trezentas e vinte horas de trabalho. (Com Certificado)</p>
+            <p><strong>El Chester</strong> — completed an internship at a graphic design company, where I improved and applied my skills in Adobe applications during a 320-hour work period (certificate awarded).</p>
         </motion.div>
         </div>
     </section>

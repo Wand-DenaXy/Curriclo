@@ -11,7 +11,7 @@ export default function Education() {
           I&apos;m a <span></span>
         </h3>
         <p>
-          Sou técnico de Tecnologias e Programação de Sistemas de Informação, com experiência no desenvolvimento de aplicações web e foco em backend. Possuo competências em programação, estruturação de aplicações, integração com bases de dados e desenvolvimento de funcionalidades orientadas para soluções web, com experiência em tecnologias como PHP e Laravel. Ao longo do meu percurso desenvolvi projetos académicos e pessoais que reforçaram a minha capacidade de análise, resolução de problemas e organização de código. Sou uma pessoa responsável, dedicada e com vontade de evoluir continuamente, procurando contribuir de forma positiva para as equipas e projetos em que me integro.
+          I am an Information Systems Technologies and Programming Technician with experience in web application development, focusing on backend development. I have skills in programming, application structuring, database integration, and developing features oriented toward web solutions, with experience in technologies such as PHP and Laravel. Throughout my journey, I have developed academic and personal projects that strengthened my analytical thinking, problem-solving abilities, and code organization skills. I am a responsible and dedicated person, continuously motivated to grow and contribute positively to the teams and projects I am part of.
         </p>
         <div className="social-icons">
           <a href="https://github.com/Wand-DenaXy"><i className='bx bxl-github'></i></a>

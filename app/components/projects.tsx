@@ -14,13 +14,13 @@ export default function Header() {
                 </div>
                 <div className="project-info">
                     <h3>WeGreen</h3>
-                    <p>Uma plataforma completa de e-commerce desenvolvida com 3 tipos de clientes: Vendedor, Cliente, Admininstrador.</p>
+                    <p>A complete e-commerce platform developed with three types of users: Seller, Client, Administrator.</p>
                     <div className="project-tags">
                         <span>Javascript</span>
                         <span>PHP</span>
                     </div>
                     <div className="project-links">
-                        <a href="https://github.com/WeGreenProject/WeGreen-Main" target="_blank" rel="noopener noreferrer">Ver Projeto</a>
+                        <a href="https://github.com/WeGreenProject/WeGreen-Main" target="_blank" rel="noopener noreferrer">See Project</a>
                     </div>
                 </div>
             </div>
@@ -31,13 +31,13 @@ export default function Header() {
                 </div>
                 <div className="project-info">
                     <h3>Puro Encanto</h3>
-                    <p>Uma plataforma de festa, a onde os clientes podem reservar as suas festa e o admininstrador as genrencias!</p>
+                    <p>A party platform where customers can book their parties and administrators manage them!</p>
                     <div className="project-tags">
                         <span>Javascript</span>
                         <span>PHP</span>
                     </div>
                     <div className="project-links">
-                         <a href="https://github.com/PuroEncantoo/PuroEncanto_Temp-Main" target="_blank" rel="noopener noreferrer">Ver Projeto</a>
+                         <a href="https://github.com/PuroEncantoo/PuroEncanto_Temp-Main" target="_blank" rel="noopener noreferrer">See Project</a>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@ export default function Header() {
                 </div>
                 <div className="project-info">
                     <h3>Federação</h3>
-                    <p>O projeto Federação introduziu a nova funcionalidade <strong>ControllerBase</strong>, uma classe abstrata que padroniza os controladores, centraliza operações CRUD e permite a reutilização de código através da herança.</p>
+                    <p>The Federação project introduced the new <strong>ControllerBase</strong> feature, an abstract class that standardizes controllers, centralizes CRUD operations, and allows code reuse through inheritance.</p>
                     <div className="project-tags">
                         <span>HTML</span>
                         <span>CSS</span>
@@ -57,7 +57,7 @@ export default function Header() {
                         <span>MySQL</span> 
                     </div>
                     <div className="project-links">
-                        <a href="https://github.com/Wand-DenaXy/Federacao" target="_blank" rel="noopener noreferrer">Ver Projeto</a>
+                        <a href="https://github.com/Wand-DenaXy/Federacao" target="_blank" rel="noopener noreferrer">See Project</a>
                     </div>
                 </div>
             </div>
@@ -68,13 +68,13 @@ export default function Header() {
                 </div>
                 <div className="project-info">
                     <h3>Federação V2</h3>
-                    <p>CRUD em Laravel com MySQL</p>
+                    <p>CRUD in Laravel with MySQL</p>
                     <div className="project-tags">
                         <span>Laravel</span>
                         <span>MySQL</span>
                     </div>
                     <div className="project-links">
-                        <a href="https://github.com/Wand-DenaXy/FederacaoV2" target="_blank" rel="noopener noreferrer">Ver Projeto</a>
+                        <a href="https://github.com/Wand-DenaXy/FederacaoV2" target="_blank" rel="noopener noreferrer">See Project</a>
                     </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@ export default function Header() {
                 </div>
                 <div className="project-info">
                     <h3>Flutter</h3>
-                    <p>API RESTful robusta desenvolvida com Laravel para gestão de múltiplos clientes, incluindo autenticação JWT.</p>
+                    <p>A cross-platform mobile app built with Flutter, integrated with a robust RESTful API.</p>
                     <div className="project-tags">
                         <span>Flutter</span>
                         <span>API REST</span>
