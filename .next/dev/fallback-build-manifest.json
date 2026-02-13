@@ -1,6 +1,31 @@
 {
   "pages": {
-    "/_app": []
+    "/_app": [
+      "static/chunks/872f4_next_dist_compiled_d5379ca4._.js",
+      "static/chunks/872f4_next_dist_shared_lib_16a6264e._.js",
+      "static/chunks/872f4_next_dist_client_7b7bdc56._.js",
+      "static/chunks/872f4_next_dist_2f35d7e2._.js",
+      "static/chunks/872f4_next_app_bb632317.js",
+      "static/chunks/[next]_entry_page-loader_ts_10468150._.js",
+      "static/chunks/872f4_react-dom_561d7cf7._.js",
+      "static/chunks/872f4_59da8218._.js",
+      "static/chunks/[root-of-the-server]__c0ebe4c3._.js",
+      "static/chunks/Downloads_Curriclo_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-Downloads_Curriclo_pages__app_2ddf6808._.js"
+    ],
+    "/_error": [
+      "static/chunks/872f4_next_dist_compiled_d5379ca4._.js",
+      "static/chunks/872f4_next_dist_shared_lib_0ce6aec8._.js",
+      "static/chunks/872f4_next_dist_client_7b7bdc56._.js",
+      "static/chunks/872f4_next_dist_69c8c82e._.js",
+      "static/chunks/872f4_next_error_41c2763b.js",
+      "static/chunks/[next]_entry_page-loader_ts_03fc6d33._.js",
+      "static/chunks/872f4_react-dom_561d7cf7._.js",
+      "static/chunks/872f4_59da8218._.js",
+      "static/chunks/[root-of-the-server]__a2e59618._.js",
+      "static/chunks/Downloads_Curriclo_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-Downloads_Curriclo_pages__error_a17e324e._.js"
+    ]
   },
   "devFiles": [],
   "polyfillFiles": [],
