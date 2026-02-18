@@ -1,10 +1,12 @@
 
 
 ## Setup
-
+<br>
 ``npm install``
 <br>
+<br>
 ``npm install framer-motion``
+<br>
 <br>
 ``npm run dev``
 <br>
