@@ -1,7 +1,7 @@
 
 
 ## Setup
-<br>
+
 ``npm install``
 <br>
 <br>
@@ -10,7 +10,7 @@
 <br>
 ``npm run dev``
 <br>
-
+<br>
 ## CV Image 
 <br>
 
